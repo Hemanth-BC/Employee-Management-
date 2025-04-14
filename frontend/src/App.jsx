@@ -8,6 +8,7 @@ import Login from "./Components/Login.jsx";
 function App() {
   return (
     <div>
+      console.log("Hello world");
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Register />} />
